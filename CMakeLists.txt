@@ -3,3 +3,5 @@ project(learn-cpp VERSION 0.1.0 LANGUAGES CXX)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/chapter1-thread)
 add_subdirectory(${CMAKE_SOURCE_DIR}/chapter2-thread)
+add_subdirectory(${CMAKE_SOURCE_DIR}/chapter3-thread)
+add_subdirectory(${CMAKE_SOURCE_DIR}/chapter4-thread)

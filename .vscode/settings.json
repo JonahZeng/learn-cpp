@@ -59,6 +59,8 @@
         "xutility": "cpp",
         "mutex": "cpp",
         "algorithm": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "shared_mutex": "cpp",
+        "condition_variable": "cpp"
     }
 }
