@@ -97,3 +97,7 @@ int main()
               << "非原子计数器为 " << cnt << '\n'; //非原子量因为cpu之间store buffer不同步，会导致结果错误
 }
 ```
+
+## chapter5-thread
+演示condition_variable等待事件的使用；
+当一个thread必须等待另一个thread完成某个工作以后才能继续往下进行的时候，使用condition_variable是比较合适的；
